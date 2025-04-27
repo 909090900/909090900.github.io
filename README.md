@@ -42,18 +42,7 @@
   </footer>
 
   <!-- Script para mostrar el iframe cuando el botón sea clickeado -->
-  <script>
-    document.getElementById("showChannelBtn").addEventListener("click", function() {
-      document.getElementById("video-container").style.display = "block"; // Muestra el iframe
-      document.getElementById("backToMenuBtnContainer").style.display = "block"; // Muestra el botón "Volver al Menú"
-      this.style.display = "none"; // Oculta el botón de "Ver ESPN en Vivo"
-    });
-  </script>
-</body>
-
-</html><!-- CSS optimizado -->
-    <link rel="stylesheet" href="../css/eventos.css">
-
+ 
     <!-- Scripts optimizados -->
     <script defer src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/luxon/3.4.4/luxon.min.js"></script>
