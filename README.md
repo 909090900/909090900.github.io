@@ -76,6 +76,100 @@
   </style>
 </head>
 
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transmisión en Vivo - Canales</title>
+  <meta name="description" content="Disfruta de tus canales favoritos en vivo directamente en nuestra página web.">
+  <link rel="icon" href="/img/logo.png" type="image/png">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    header, footer {
+      text-align: center;
+      padding: 10px;
+    }
+    .video-container {
+      margin: 20px auto;
+      width: 80%;
+    }
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+    }
+  </style>
+</head>
+
 <body>
+
+  <header>
+    <h1>Transmisión en Vivo - Canales</h1>
+  </header>
+
+  <main>
+    <div class="video-container" id="dsports">
+      <h3>Transmisión en Vivo - DSports</h3>
+      <div class="subiframe">
+        <div class="preframe">
+          <iframe allowfullscreen="true" scrolling="no" 
+                  src="https://la12hd.com/vivo/canal.php?stream=dsports"
+                  allow="encrypted-media" frameborder="0" loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-container" id="canal2">
+      <h3>Transmisión en Vivo - Canal 2</h3>
+      <div class="subiframe">
+        <div class="preframe">
+          <iframe allowfullscreen="true" scrolling="no" 
+                  src="https://la12hd.com/vivo/canal.php?stream=canal2"
+                  allow="encrypted-media" frameborder="0" loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-container" id="canal3">
+      <h3>Transmisión en Vivo - Canal 3</h3>
+      <div class="subiframe">
+        <div class="preframe">
+          <iframe allowfullscreen="true" scrolling="no" 
+                  src="https://la12hd.com/vivo/canal.php?stream=canal3"
+                  allow="encrypted-media" frameborder="0" loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-container" id="winSports">
+      <h3>Transmisión en Vivo - Win Sports +</h3>
+      <div class="subiframe">
+        <div class="preframe">
+          <!-- Agregando el canal Win Sports + -->
+          <iframe allowfullscreen="true" scrolling="no" 
+                  src="http://186.148.163.18:8000/play/a043"
+                  allow="encrypted-media" frameborder="0" loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <span>&copy; 2025 Mi Página Web</span>
+  </footer>
+
+</body>
+
+</html>
+
 
  
