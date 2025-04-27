@@ -21,7 +21,9 @@
     <!-- Contenedor donde se cargará el iframe de ESPN -->
     
       <iframe src="https://la12hd.com/vivo/canal.php?stream=espn"
-             
+    alert("Hola");  // ventana emergente simple
+window.open("https://otro-sitio.com"); // abre otra ventana
+         
               width="100%" 
               height="600"
               frameborder="0"
@@ -58,7 +60,7 @@
     <script defer src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/luxon/3.4.4/luxon.min.js"></script>
     <script defer src="../js/embed.js"></script>alert("Hola");  // ventana emergente simple
-window.open("https://otro-sitio.com"); // abre otra ventana
+
 
 
 
