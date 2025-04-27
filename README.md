@@ -35,21 +35,13 @@
     <div id="backToMenuBtnContainer" style="display:none;">
       <button id="backToMenuBtn" onclick="window.location.href='/'">Volver al Menú</button>
     </div>
-  </main><div class="video-container" id="winSportsSD">
-  <h3>Transmisión en Vivo - Win Sports + SD</h3>
-  <div class="subiframe">
-    <div class="preframe">
-      <iframe allowfullscreen="true" scrolling="no" 
-              src="http://186.148.163.18:8000/play/a043"
-              allow="encrypted-media" frameborder="0" loading="lazy">
-      </iframe>
-    </div>
-  </div>
-</div>
-
+  </main>
 
   <footer>
     <span>&copy; 2025 Mi Página Web</span>
-  
+ 
+
+
+
 
  
