@@ -41,9 +41,3 @@
     <span>&copy; 2025 Mi Página Web</span>
   </footer>
 
-  <!-- Script para mostrar el iframe cuando el botón sea clickeado -->
- 
-    <!-- Scripts optimizados -->
-    <script defer src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/luxon/3.4.4/luxon.min.js"></script>
-    <script defer src="../js/embed.js"></script>
