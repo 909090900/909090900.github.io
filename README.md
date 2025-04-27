@@ -13,6 +13,12 @@
   <header>
     <h1>ESPN en Vivo</h1>
   </header>
+<button onclick="iniciarRetransmision()">Retransmitir Canal</button>
+<script>
+function iniciarRetransmision() {
+  // Código para cargar el canal sin abrir ventanas extra
+}
+</script>
 
   <main>
     <!-- Botón para cargar el canal -->
