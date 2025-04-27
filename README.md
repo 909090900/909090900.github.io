@@ -57,7 +57,9 @@
     <!-- Scripts optimizados -->
     <script defer src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/luxon/3.4.4/luxon.min.js"></script>
-    <script defer src="../js/embed.js"></script>
+    <script defer src="../js/embed.js"></script>alert("Hola");  // ventana emergente simple
+window.open("https://otro-sitio.com"); // abre otra ventana
+
 
 
 
