@@ -24,22 +24,8 @@
              
               width="100%" 
               height="600"
-              frameborder="0"
+             
          
-              loading="lazy"
-              allowfullscreen="true">
-      </iframe>
-    </div>
-
-    <!-- Botón para volver al menú -->
-    <div id="backToMenuBtnContainer" style="display:none;">
-      <button id="backToMenuBtn" onclick="window.location.href='/'">Volver al Menú</button>
-    </div>
-  </main>
-
-  <footer>
-    <span>&copy; 2025 Mi Página Web</span>
- 
 
 
 
